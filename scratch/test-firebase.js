@@ -3,13 +3,13 @@ import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDTG-okJuoxNlxJ9rizvLkwOjjn4AT0pW8",
-  authDomain: "slidev-pro-vercel-app-db.firebaseapp.com",
-  projectId: "slidev-pro-vercel-app-db",
-  storageBucket: "slidev-pro-vercel-app-db.firebasestorage.app",
-  messagingSenderId: "390478860852",
-  appId: "1:390478860852:web:a4045993367fe4e740b061"
-}
+  apiKey: "AIzaSyCBsNQ_QDJScHgMUv4blklp2fCACKtmzYQ",
+  authDomain: "test-db-2647b.firebaseapp.com",
+  projectId: "test-db-2647b",
+  storageBucket: "test-db-2647b.firebasestorage.app",
+  messagingSenderId: "593195733830",
+  appId: "1:593195733830:web:dcd89130dd877694d58b47"
+};
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig)
