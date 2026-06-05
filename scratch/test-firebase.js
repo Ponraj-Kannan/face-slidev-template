@@ -9,7 +9,11 @@ const firebaseConfig = {
   storageBucket: "test-db-2647b.firebasestorage.app",
   messagingSenderId: "593195733830",
   appId: "1:593195733830:web:dcd89130dd877694d58b47"
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 4e8c09093617602aec56f880da9889a424831db1
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig)
